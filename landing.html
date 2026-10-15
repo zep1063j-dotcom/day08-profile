@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello_Archive</title>
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  <link href="landing.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div id="head">
+      <h1>Hello_Archive</h1>
+      <h4 class="headname">부모님의 삶을 기록하다</h4>
+      <small class="smallcolor">아직 프로젝트 실행 전이라 이미지 없음</small>
+    </div>
+  </header>
+  <main>
+    <div> <!-- 카드 버튼 3개-->
+      <div class="row justify-content-center g-3">
+        <div class="col-12 col-md-6 col-lg-4">
+          <a href="#about" class="card text-decoration-none h-100" >
+            <div class="card-body">
+              <h5 class="card-title">About Project</h5>
+              <p class="card-text">이 프로젝트에 대하여</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <a href="#mvp" class="card text-decoration-none h-100" >
+            <div class="card-body">
+              <h5 class="card-title">2. MVP</h5>
+              <p class="card-text ">초기 모델에는 어떤 서비스가 있는가</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <a href="#nextstage" class="card text-decoration-none h-100" >
+            <div class="card-body">
+              <h5 class="card-title">Next Stage</h5>
+              <p class="card-text">확장 방향성</p>
+            </div>
+          </a>
+        </div>
+      </div> 
+    </div>
+    <div></div>
+    <section id="underlist">
+      <section id="about" class="list py-5 text-white">
+        <h2>1. About Project</h2>
+          <p>어떤 문제가 있고 어떻게 해결할 것인가</p>
+              <ul class="listpd">
+                <li>부모님의 어린 시절, 첫 직장, 사랑, 가족 이야기는 기록하지 않으면 사라지고, 자서전을 쓰자고 하면 부담이 크다.</li>
+                <li>매주 질문 하나를 보내고 부모님이 음성이나 글로 답하면, 서비스가 정리해 사진과 함께 장별로 묶어 가족 이야기책을 만든다.</li>
+              </ul>
+          <p>페르소나 main/sub</p>
+            <ul class="listpd">
+              <li>서울이 고향이 아닌 역삼, 강남, 관악에서 자취하는 28~35살 자녀</li>
+              <li>건강 악화로 남은 삶의 시간을 의식하며 가족에게 자신의 이야기를 남기고 싶은 사람</li>
+            </ul>
+          <p>어떻게 진행되는가</p>
+            <ol type="I" class="listpd">
+              <li>자녀가 부모님에게 매주 1개의 질문을 한다.</li>
+              <li>부모님은 텍스트 혹은 음성으로 답변을 한다.</li>
+              <li>6개월이 지나고 1년이 지나면 하나의 커다란 추억 기록 파일이 된다.</li>
+              <li>기록을 모아 자서전을 작성한다.</li>
+            </ol>
+          <p>어디에서 영감을 얻었는가</p>
+            <ul class="listpd">
+              <li>최근 20대 중 후반 여성들 사이에서 친구랑 노는 것보다 어머니랑 노는 걸 더 즐겨 하는 층이 생겼다.</li>
+              <li>그 사람들은 '엄마 동결건조'를 하고 싶다는 표현을 자주 한다.</li>
+              <li>하지만 사람은 태어나서 늙고 죽는것이 수순이다. 그리고 어머니를 동결건조 시켜서 자식이 죽을때까지 보존하는건 윤리적으로든 현실적으로든 힘들다.</li>
+            </ul>
+          <p>나의 경우</p>
+            <ul class="listpd">
+              <li>나는 외동이고 후에 부모님이 돌아가시면 추억을 나눌 친척들도 없다.</li>
+              <li>추억 또는 기록을 매우 소중하게 생각하는 타입이라 매달 네이버, 구글 클라우드, 아이클라우드에 돈이 많이 나간다.</li>
+              <li>항상 클라우드에 저장하고 기록하지만 돈이 아깝다고 생각하는 건 아니다. 그저 갑자기 '내가 기록했던 것이 사라지면 어떡하지' 라는 원인 모를 불안감이 있다.</li>
+              <li>그래서 기록이 일정량 이상 쌓이면 앨범이든 책이든 직접 확인이 가능하고 간직할 수 있는 결과물이 있었으면 좋겠다는 생각에서 아이디어를 떠올렸다.</li>
+            </ul>
+          
+      </section>
+      <section id="mvp" class="list py-5 text-white">
+        <h2>2. MVP</h2>
+        <h3>사용 흐름 </h3>
+        <p>주 1회 질문 → 글로 답변 작성 → 자동 정리 → 가족 전용 웹페이지에 챕터 누적.</p>
+        <div class="pt-4">
+          <h3>mvp</h3>
+          <sectionclass="mvplist">
+            <div class="mvplist">
+              <p1>계정 가입 및 가족 프로젝트 생성</p1>
+              <div>
+                <img src="arrow.jpg" alt="arrow" class="imgsize">
+              </div>
+            </div>
+            <div class="mvplist">
+              <p1>가족 프로젝트별 개별 코드 생성</p1>
+              <div>
+                <img src="arrow.jpg" alt="arrow" class="imgsize">
+              </div>
+            </div>
+            <div class="mvplist">
+              <p1>해당 코드를 사용해 가족 구성원 추가 가능</p1>
+              <div>
+                <img src="arrow.jpg" alt="arrow" class="imgsize">
+              </div>
+            </div>
+            <div class="mvplist">
+              <p1>매주 1개의 질문 발송, 텍스트로 답변</p1>
+              <div>
+                <img src="arrow.jpg" alt="arrow" class="imgsize">
+              </div>
+            </div>
+            <div class="mvplist">
+              <p1>가족 프로젝트에 기록 누적</p1>
+              <div>
+                <img src="arrow.jpg" alt="arrow" class="imgsize">
+              </div>
+            </div>
+            <div class="mvplist">
+              <p1>1달(기록 4~5개) 기록을 AI를 이용하여 미니 챕터 생성</p1>
+            </div>
+          </sectionclass=>
+        </div>
+      </section>
+      <section id="nextstage" class="list py-5 text-white">
+        <h2>3. Next Stage</h2>
+        <section class="nextstagelist">
+          <div>
+            <h3>정식 출시 전 추가할 것 들</h3>
+            <p>- 음성답변 텍스트화</p>
+            <p>- 3개의 미니챕터를 합쳐 첫번째 이야기집 생성(3개월 프로그램)</p>
+            <p>- 4개의 이야기집을 합쳐 자서전 작성(1년 프로그램)</p>
+            <p>- 예시 질문 리스트</p>
+
+
+          </div>
+        </section>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                확장
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p1>- 연인 혹은 친구들과의 기록을 작성할 수 있음</p1><br />
+                <p1>- 종이 책 발매</p1><br />
+                <p1>- 나중에 부모 사망 후 자녀들이 돌려 들을 수 있는 음성파일(여러 상황을 예시로 만들어 두되 부모가 하고싶은 녹음도 할 수 있도록)(시시콜콜한 내용도 괜찮음)</p1><br />
+                <p1>- 국내 사용자 (한 가족계정당 1로 치환) 1000돌파시 외국인 타겟으로 확장</p1>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                차별화 포인트
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p1>- 부모님이 작성하는 것뿐 아닌 자녀가 들은 이야기도 추가하고 서로 기억하는 내용을 연결한다</p1><br />
+                <p1>- 어머니의 이야기, 아버지의 이야기 따로 기록하고 가족의 추억을 한곳에 모으기</p1><br />
+                <p1>- 부모님이 특정상황 자녀에게 들려주고싶은 이야기를 별도로 남긴다(힘든날 꺼내듣는 부모님의 위로)</p1>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                재검토 할 부분
+              </button>
+            </h2>
+            <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p1>- 현재 수익화 구조가 명확하지 않음</p1><br />
+                <p1>- 이 프로그램 특성상 매주 꾸준히 해야하다보니 부모님이 숙제로 느낄 수 있음</p1><br />
+                <p1>- 부모님의 답변 참여율이 서베스 성패를 결정함 -> 어떻게 조금이라도 과정을 최소화 할 수 있는가?</p1><br />
+                <p1>- 해외에 거주중인 한국인은 사용할 수 있는가?</p1><br />
+                <p1>- 굳이 자서전이여야만 하는가(초기는 자서전) 졸업앨범 느낌도 괜찮고 시집은 또 어떤가 (추가 고려)</p1><br />
+                <p1>- 왜 자녀의 입장에서만 기록을 남기려 하지? 부모가 자녀의 기록을 남길수도 있는것 아닌가?</p1><br />
+                <p1>- 질문과 기록을 편도로 할지 혹은 왕복도 가능하게 할지</p1><br />
+                <p1>- 기록 열람 및 소유권</p1><br />
+                <p1>- 결제 기한이 끝나더라도 기록 열람 할 수 있어야하나</p1><br />
+                <p1>- 질문과 기록을 편도로 할지 혹은 왕복도 가능하게 할지</p1><br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <div class="text-center">
+      <small>jonghyun</small>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
